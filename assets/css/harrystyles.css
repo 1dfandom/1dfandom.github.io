@@ -129,9 +129,10 @@ body {
 }
 
 .index {
-    font-size: 40px;
-    line-height: .7;
-    margin-top: 50px;
+    font-size: 35px;
+    line-height: .6;
+    padding: 10px;
+    margin-top: 25px;
     margin-bottom: 50px;
     max-width: 90%;
     letter-spacing: 1px;
@@ -143,7 +144,7 @@ body {
 .conspiracies:hover,
 .archive:hover {
     color: white;
-    position: 
+   line-height: .44;
 }
 
 .tooltip {
