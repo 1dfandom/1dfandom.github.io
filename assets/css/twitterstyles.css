@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    background-image: url(/assets/imgs/1dbg.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+        cursor: url(https://cur.cursors-4u.net/food/foo-5/foo429.cur), auto !important;
+    font-family: 'hind-siliguri', sans-serif;
+}
+
+.topbar {
+    background-color: black;
+    margin: 0px;
+
+}
+
+.twit-logo {
+    max-height: 25px;
+    background-color: black;
+    margin: 3px 150px;
+
+}
+
+img {
+    margin: 0px;
+
+}
+
+h1 {
+    
+    font-weight: 400;
+    margin: 15px;
+    font-size: 20px;
+    color: #B5B5B5;
+}
+
+h2 {
+    
+    font-weight: 400;
+    margin: 15px;
+    font-size: 20px;
+    color: #85BCE6;
+}
+
+.flex-container-home {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+
+}
+
+.tweet-box{
+    background-color: white;
+    margin: 10px;
+    border:1px #B5B5B5;
+    border-style: solid;
+    border-radius: 6px; 
+    color:white;
+    line-height: 1.6;
+    
+}
+
+.timeline,
+.sidebar {
+    width: 600px;
+}
+
+.timeline {
+    background-color: white;
+    border: 1px #D6D6D6;
+        border-style: solid;
+    border-radius: 10px 0px 0px 10px;
+      min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #E6FFFF;
+    border: 1px #DCFAFA;
+        border-style: solid;
+    border-radius: 0px 10px 10px 00px;
+    min-height: 100vh;
+
+}
+
+.sidebar-columns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 15px;
+    position: relative;
+
+}
+
+.col-one{
+    min-width:50%;
+}
+
+.tweet-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 15px;
+    position: relative;
+
+}
+.nav-space{
+    padding:5px 20px;
+}
+
+.tweet{
+    width:600px
+}
+/*
+.tweet{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 5px;
+    position: relative;
+
+}
+
+
+.pfp, .pfp-container{
+    width: 50px;
+    border-radius: 5px;
+}
+.metadata{
+    width:500px;
+    margin: 5px;
+}
+
+.tweet, {margin: 5px;}
+
+.handle, .displayname, .message, .date{
+    margin:5px 5px;
+    
+}*/
