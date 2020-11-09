@@ -182,7 +182,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: #BF2A45;
+    background-color: #F05490;
 }
 
 .mrx:hover:before {
@@ -194,7 +194,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: #6367A6;
+    background-color: #120DA3;
 }
 
 .rbb:hover:before {
@@ -206,7 +206,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: #D97941;
+    background-color: #C688F0;
 }
 
 .babies:hover:before {
@@ -218,7 +218,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: #D97941;
+    background-color: #F0D876;
 }
 
 .mitam:hover:before {
@@ -242,7 +242,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: #D97941;
+    background-color: #8D0B00;
 }
 
 .author,
