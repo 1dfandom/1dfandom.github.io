@@ -47,7 +47,7 @@ a {
 
 a:hover {
     cursor: url(https://cur.cursors-4u.net/food/foo-5/foo429.cur), auto !important;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'eloquent-jf-pro', serif;
 }
 
@@ -121,7 +121,7 @@ body {
     font-family: 'input-mono', sans-serif;
     font-weight: 100;
     font-style: normal;
-    text-align: center;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
         position:absolute;
@@ -129,9 +129,8 @@ body {
 
 .index {
     font-size: 35px;
-    line-height: .7;
-    margin-top: 50px;
-    margin-bottom: 50px;
+   line-height: .6;
+    margin: 50px;
     max-width: 90%;
     letter-spacing: 1px;
       position:absolute;
@@ -145,7 +144,7 @@ body {
 .mitam:hover,
 .xfactor:hover,{
     color: white;
-    position: 
+    line-height: .2;
 }
 
 .tooltip {
