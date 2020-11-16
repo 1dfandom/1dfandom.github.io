@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-family: 'OneDirection';
-    font-size: 180px;
+    font-size: 60px;
     font-weight: 500;
     text-align: center;
     font-style: normal;
@@ -31,61 +31,22 @@ h1 {
 
 }
 
-h2 {}
-
-p {}
-
-
-
-a {
-    text-decoration: none;
-    color: #E9EFEF;
-
-
-
-}
-
-a:hover {
-    cursor: url(https://cur.cursors-4u.net/food/foo-5/foo429.cur), auto !important;
-    font-size: 40px;
-    font-family: 'eloquent-jf-pro', serif;
-}
-
-html,
-
-@media screen and (max-width: 575px) {
-
-    p,
-    ul,
-    .question,
-    .quote,
-    .video-container {
-        min-width: 40%;
-    }
-}
-
-@media screen and (min-width: 575px) {
-
-    p,
-    ul,
-    .question {
-        max-width: 600px;
-    }
+h2{
+    font-family: 'input-mono', monospace;
+    font-weight: 490;
+    font-size: 16px;
+    text-align: center;
+    height: 15px;
+       line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 20px;
     
-
-    .quote {
-        max-width: 490px;
-    }
-
-    .video-container {
-        max-width: 60%;
-        min-width: 600px;
-    }
-
-    .small-img {
-        max-width: 60%;
-    }
 }
+
+
+
+
+
 
 @media screen and (max-width: 725px) {
     .index {
@@ -124,16 +85,16 @@ body {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-        position:absolute;
+    position: absolute;
 }
 
 .index {
     font-size: 35px;
-   line-height: .6;
-    margin: 50px;
+    line-height: 12vh;
+    margin: 10px 50px;
     max-width: 90%;
     letter-spacing: 1px;
-      position:absolute;
+    position: absolute;
 }
 
 .larry:hover,
@@ -142,7 +103,8 @@ body {
 .rbb:hover,
 .babies:hover,
 .mitam:hover,
-.xfactor:hover,{
+.xfactor:hover,
+    {
     color: white;
     line-height: .2;
 }
@@ -172,6 +134,23 @@ body {
     background-color: #05A678;
 }
 
+.larry {
+    color: #05A678;
+     animation: scroll-down 1s linear 1;
+    height:55px;
+    overflow: hidden;
+}
+
+.larry a{
+    color:#05A678;
+}
+.larry a:hover{
+    color:white;
+    font-family: 'input-mono', sans-serif;
+    font-size:14px;
+}
+
+
 .eleanor:hover:before {
     content: '';
     position: fixed;
@@ -182,6 +161,22 @@ body {
     right: 0;
     z-index: -1;
     background-color: #F05490;
+}
+
+
+.eleanor {
+    color: #F05490;
+     animation: scroll-down 1s linear 1;
+    height:55px;
+    overflow: hidden;
+}
+.eleanor a{
+    color:#F05490;
+}
+.eleanor a:hover{
+    color:white;
+    font-family: 'input-mono', sans-serif;
+    font-size:14px;
 }
 
 .mrx:hover:before {
@@ -196,6 +191,14 @@ body {
     background-color: #120DA3;
 }
 
+.mrx {
+    color: #120DA3;
+     animation: scroll-down 1s linear 1;
+    height:55px;
+    overflow: hidden;
+}
+
+
 .rbb:hover:before {
     content: '';
     position: fixed;
@@ -207,6 +210,14 @@ body {
     z-index: -1;
     background-color: #C688F0;
 }
+.rbb {
+    color: #C688F0;
+     animation: scroll-down 1s linear 1;
+    height:55px;
+    overflow: hidden;
+}
+
+/*
 
 .babies:hover:before {
     content: '';
@@ -219,6 +230,7 @@ body {
     z-index: -1;
     background-color: #F0D876;
 }
+*/
 
 .mitam:hover:before {
     content: '';
@@ -230,6 +242,13 @@ body {
     right: 0;
     z-index: -1;
     background-color: #D97941;
+}
+
+.mitam {
+    color: #D97941;
+     animation: scroll-down 1s linear 1;
+    height:55px;
+    overflow: hidden;
 }
 
 .xfactor:hover:before {
@@ -244,13 +263,33 @@ body {
     background-color: #8D0B00;
 }
 
+.xfactor {
+    color: #8D0B00;
+     animation: scroll-down 1s linear 1;
+    height:55px;
+    overflow: hidden;
+}
+
+.larry:hover,
+.eleanor:hover,
+.mrx:hover,
+.rbb:hover,
+.babies:hover,
+.mitam:hover,
+.xfactor:hover,
+    {
+    color: white;
+    line-height: .2;
+}
+
+
 .author,
 .date {
     display: inline-block;
 }
 
 .page {
-      content: '';
+    content: '';
     position: fixed;
     display: block;
     top: 0;
@@ -262,13 +301,6 @@ body {
 }
 
 
-p {
-    font-family: 'rucksack';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    margin: 35px auto 35px auto;
-}
 
 
 .video {
@@ -276,48 +308,72 @@ p {
     position: relative;
 }
 
-iframe {
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
-
-
-
-.scroll-right {
-    height: 215px;
-    overflow: hidden;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
     position: relative;
-    width: 400vh;
 
 }
 
-.scroll-right h1 {
+.portfolio {
+    width: 100vw;
+
+}
+
+
+
+p {
+    font-family: 'input-mono', monospace;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.3;
+    justify-content: center;
+    margin: 15px 25%;
+}
+
+iframe{
+    justify-content: center;
+      display: block;
+    margin:25px  20px;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    text-align: center;
-    transform: translateX(100%);
-    animation: scroll-right 13s linear infinite;
 }
 
-@keyframes scroll-right {
-    0% {
-        transform: translateX(100%);
+.evidence{
+  margin: 0px auto;   
+}
+img{
+    margin:10px 30%;
+    width:35vw;
+}
+
+@keyframes scroll-down{
+     0% {
+        transform: translateY(-100px);
+         opacity: 0;
     }
 
-    2% {
-        transform: translateX(50%);
-
-    }
+ 
 
     100% {
-        transform: translateX(-100%);
+        transform: translateY(0px);
+        opacity: 1;
     }
+}
+
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.conspiracy a:hover {
+    cursor: url(https://cur.cursors-4u.net/food/foo-5/foo429.cur), auto !important;
+    font-size: 40px;
+    font-family: 'eloquent-jf-pro', serif;
 }

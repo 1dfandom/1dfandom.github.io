@@ -27,7 +27,7 @@ h1 {
     margin: 0px;
     line-height: 1;
     z-index: -1;
-    top: 10%;
+    top: 8vh;
 
 }
 
@@ -65,35 +65,6 @@ html,
     }
 }
 
-@media screen and (min-width: 575px) {
-
-    p,
-    ul,
-    .question {
-        max-width: 600px;
-    }
-    
-
-    .quote {
-        max-width: 490px;
-    }
-
-    .video-container {
-        max-width: 60%;
-        min-width: 600px;
-    }
-
-    .small-img {
-        max-width: 60%;
-    }
-}
-
-@media screen and (max-width: 725px) {
-    .index {
-        font-size: 8.5em !important;
-        line-height: 115px !important;
-    }
-}
 
 body {
     margin: 0px;
@@ -131,8 +102,8 @@ body {
 
 .index {
     font-size: 35px;
-    line-height: .6;
-    margin: 50px 70% 50px 50px;
+    line-height: 3vh;
+    margin: 55px 50% 55px 50px;
     max-width: 90%;
       position:absolute;
 }
@@ -162,7 +133,7 @@ body {
     content: '';
     position: fixed;
     display: block;
-    top: 245px;
+    top: 45%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -174,7 +145,7 @@ body {
     content: '';
     position: fixed;
     display: block;
-    top: 245px;
+    top: 45%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -186,7 +157,7 @@ body {
     content: '';
     position: fixed;
     display: block;
-    top: 245px;
+    top: 45%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -198,7 +169,7 @@ body {
     content: '';
     position: fixed;
     display: block;
-    top: 245px;
+    top: 45%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -217,7 +188,7 @@ body {
       content: '';
     position: fixed;
     display: block;
-    top: 245px;
+    top: 45%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -254,7 +225,7 @@ iframe {
 
 
 .scroll-right {
-    height: 215px;
+    height: 235px;
     overflow: hidden;
     position: absolute;
     width: 250vw;
@@ -285,3 +256,4 @@ iframe {
         transform: translateX(-100%);
     }
 }
+
