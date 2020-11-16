@@ -161,3 +161,18 @@ a:hover{
     margin:5px 5px;
     
 }*/
+
+
+.nav{
+    width: 50px;
+    margin: 10px;
+    z-index:2;
+    position: fixed;
+    bottom:0px;
+    
+}
+
+.nav:hover{
+    opacity:.6;
+    transition: .5s;
+}
