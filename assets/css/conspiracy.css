@@ -283,11 +283,11 @@ body {
     position: fixed;
     display: block;
     top: 0;
-    bottom: 0;
+    bottom: 80%;
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: black;
+    background-color: white;
 }
 
 
@@ -386,4 +386,19 @@ a {
     cursor: url(https://cur.cursors-4u.net/food/foo-5/foo429.cur), auto !important;
     font-size: 40px;
     font-family: 'eloquent-jf-pro', serif;
+}
+
+
+.nav{
+    width: 50px;
+    margin: 10px;
+    z-index:2;
+    position: fixed;
+    bottom:0px;
+    
+}
+
+.nav:hover{
+    opacity:.6;
+    transition: .5s;
 }

@@ -31,9 +31,19 @@ h1 {
 
 }
 
-h2 {}
+h2 {
+    font-family: 'OneDirection';
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    margin: 0px;
+    line-height: 1;
+    z-index: -1;
+    top: 8vh;
+}
 
-p {}
+
 
 
 
@@ -51,6 +61,7 @@ a:hover {
     font-family: 'eloquent-jf-pro', serif;
     font-weight: 100;
 }
+/*
 
 html,
 
@@ -64,6 +75,7 @@ html,
         min-width: 40%;
     }
 }
+*/
 
 
 body {
@@ -97,7 +109,7 @@ body {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-        position:absolute;
+    position: absolute;
 }
 
 .index {
@@ -105,7 +117,7 @@ body {
     line-height: 3vh;
     margin: 55px 50% 55px 50px;
     max-width: 90%;
-      position:absolute;
+    position: absolute;
 }
 
 .about:hover,
@@ -113,7 +125,7 @@ body {
 .conspiracies:hover,
 .archive:hover {
     color: white;
-   line-height: .44;
+    line-height: .44;
 }
 
 .tooltip {
@@ -185,7 +197,7 @@ body {
 }
 
 .page {
-      content: '';
+    content: '';
     position: fixed;
     display: block;
     top: 45%;
@@ -197,17 +209,15 @@ body {
 }
 
 
-p {
-    font-family: 'rucksack';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    margin: 35px auto 35px auto;
-}
-
+p { font-family: 'input-mono', monospace;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.3;
+    justify-content: center;
+    margin: 35px 25%;}
 
 .video {
-    padding: 56.25% 0 0 0;
+    margin: 20px 22vw;
     position: relative;
 }
 
@@ -217,8 +227,11 @@ iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 55vw;
+    height: 55vh;
+
+
+
 }
 
 
@@ -232,7 +245,7 @@ iframe {
 
 }
 
-.scroll-right h1 {
+.scroll-right h1{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -241,6 +254,17 @@ iframe {
     transform: translateX(100%);
     animation: scroll-right 15s linear infinite;
 }
+
+.scroll-right h2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    transform: translateX(100%);
+    animation: scroll-right 13s linear infinite;
+}
+
 
 @keyframes scroll-right {
     0% {
@@ -257,3 +281,32 @@ iframe {
     }
 }
 
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+    margin-top: 200px;
+    position: relative;
+    background-color: black;
+    color:white;
+
+}
+
+.nav{
+    width: 50px;
+    margin: 10px;
+    z-index:2;
+    position: fixed;
+    bottom:0px;
+    
+}
+
+.nav:hover{
+    opacity:.6;
+    transition: .5s;
+}
